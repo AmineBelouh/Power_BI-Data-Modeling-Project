@@ -35,17 +35,20 @@
 ![Data Modeling Process](/Images/1_Process.jpg)  
 
 ## Rules  
-![Rule 1](/Images/2_Rule_1.png)  
-![Rule 2](/Images/2_Rule_2.jpg)  
-![Rule 3](/Images/2_Rule_3.jpg)  
-![Rule 4](/Images/2_Rule_4.jpg)    
+1. **Build a star schema:** A **fact** in the middle, dimensions around it
+2. **Understand before you change:** Always read the **grain** first
+3. **Every column earns its place:** If it doesn't help the report, **drop it**
+4. **Protect the numbers:** Know your totals, **re-check** after every change
 
-## Standards  
-![Standards](/Images/3_Standards.png)  
+## Standards
+- **Language:** English 
+- **Naming:** snake_case (customer_name, order_date)
+- **Tables:** fact_ dim_ (fact_sales, dim_products)
+- **Keys:** _key _id (customer_key, customer_id)  
 
 ## Polish  
-![Polish 1](/Images/4_Polish_1.png)  
-![Polish 2](/Images/4_Polish_2.png)  
-![Polish 3](/Images/4_Polish_3.png)  
-![Polish 4](/Images/4_Polish_4.png)  
-![Polish 5](/Images/4_Polish_5.png)  
+- **Connect dim_date:** Almost every fact needs a date
+- **Measures:** The obvious ones every model needs
+- **Secure the model:** Apply row-level security
+- **Check the big numbers:** The ones you already know by heart
+- **Hand it over:** Give them the guide, and let them run it
