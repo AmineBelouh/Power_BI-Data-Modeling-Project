@@ -1,8 +1,8 @@
 # Power BI Data Modeling Project  
 
 - Built a **star-schema data model** by transforming complex source tables into fact and dimension tables.  
-- Analyzed **table grain, relationships, and data requirements** to structure the model for reliable reporting.  
-- Applied **data modeling standards,** including naming conventions, surrogate keys, and removal of unnecessary columns.  
+- Analyzed **table grain and relationships** to structure the model for reliable reporting.  
+- Applied **standards**, including naming conventions, surrogate keys, and removal of unnecessary columns.  
 - Created a **Date dimension and core DAX measures** for the business, and validated key figures to ensure data accuracy.  
 - Applied **Row-Level Security (RLS)** and performed final model validation.  
 
